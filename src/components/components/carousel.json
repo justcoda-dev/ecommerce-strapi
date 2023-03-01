@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_components_carousels",
+  "info": {
+    "displayName": "Carousel",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button": {
+      "displayName": "DiscoverButton",
+      "type": "component",
+      "repeatable": false,
+      "component": "ui.discover-button"
+    },
+    "component": {
+      "type": "string"
+    }
+  }
+}

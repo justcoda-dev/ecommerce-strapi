@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "carousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.carousel"
+    },
+    "service": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.service"
+    }
+  }
+}

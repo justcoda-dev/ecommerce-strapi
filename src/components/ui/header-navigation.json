@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ui_header_navigations",
+  "info": {
+    "displayName": "HeaderNavigation",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "deepList": {
+      "type": "json"
+    },
+    "component": {
+      "type": "string"
+    }
+  }
+}

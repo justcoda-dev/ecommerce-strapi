@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_ui_header_contacts",
+  "info": {
+    "displayName": "HeaderContact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "component": {
+      "type": "string"
+    }
+  }
+}

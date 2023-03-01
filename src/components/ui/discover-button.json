@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_discover_buttons",
+  "info": {
+    "displayName": "DiscoverButton",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "path": {
+      "type": "string"
+    },
+    "component": {
+      "type": "string"
+    }
+  }
+}
