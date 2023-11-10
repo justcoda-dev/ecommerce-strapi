@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comments",
+  "info": {
+    "singularName": "comment",
+    "pluralName": "comments",
+    "displayName": "Comment",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "web_user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::web-user.web-user",
+      "inversedBy": "comments"
+    }
+  }
+}

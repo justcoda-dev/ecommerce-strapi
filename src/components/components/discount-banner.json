@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_components_discount_banners",
+  "info": {
+    "displayName": "DiscountBanner"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
+    },
+    "valid": {
+      "type": "datetime"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

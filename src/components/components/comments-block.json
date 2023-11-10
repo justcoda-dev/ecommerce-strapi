@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_comments_blocks",
+  "info": {
+    "displayName": "CommentsBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "comments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::comment.comment"
+    }
+  }
+}

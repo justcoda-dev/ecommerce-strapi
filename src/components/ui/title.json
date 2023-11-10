@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_ui_titles",
+  "info": {
+    "displayName": "title"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "color": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::color.color"
+    },
+    "type": {
+      "type": "string"
+    }
+  }
+}

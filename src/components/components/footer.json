@@ -1,25 +1,25 @@
 {
-  "collectionName": "components_components_headers",
+  "collectionName": "components_components_footers",
   "info": {
-    "displayName": "Header",
+    "displayName": "Footer",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "logo": {
+    "navigation": {
       "type": "component",
-      "repeatable": false,
-      "component": "ui.logo"
+      "repeatable": true,
+      "component": "ui.header-navigation"
     },
     "contacts": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::contact.contact"
     },
-    "navigations": {
+    "socials": {
       "type": "relation",
       "relation": "oneToMany",
-      "target": "api::navigation.navigation"
+      "target": "api::social.social"
     }
   }
 }

@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "colors",
+  "info": {
+    "singularName": "color",
+    "pluralName": "colors",
+    "displayName": "Color",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rgb_collor_model": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

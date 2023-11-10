@@ -9,18 +9,10 @@
     "text": {
       "type": "string"
     },
-    "icon": {
-      "type": "media",
-      "multiple": true,
-      "required": false,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "component": {
+      "type": "string"
+    },
+    "icon": {
       "type": "string"
     }
   }

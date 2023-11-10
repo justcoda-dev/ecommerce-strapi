@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "web_roles",
+  "info": {
+    "singularName": "web-role",
+    "pluralName": "web-roles",
+    "displayName": "WebRole",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "role": {
+      "type": "string"
+    }
+  }
+}

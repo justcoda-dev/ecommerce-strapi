@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_components_advantage_blocks",
+  "info": {
+    "displayName": "AdvantageBlock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "advantages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::advantage.advantage"
+    }
+  }
+}

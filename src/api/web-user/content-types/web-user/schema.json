@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "web_users",
+  "info": {
+    "singularName": "web-user",
+    "pluralName": "web-users",
+    "displayName": "WebUser",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "login": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "banned": {
+      "type": "boolean"
+    },
+    "confirmed": {
+      "type": "boolean"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "email": {
+      "type": "email"
+    },
+    "web_role": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::web-role.web-role"
+    },
+    "comments": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::comment.comment",
+      "mappedBy": "web_user"
+    },
+    "name": {
+      "type": "string"
+    },
+    "surname": {
+      "type": "string"
+    }
+  }
+}

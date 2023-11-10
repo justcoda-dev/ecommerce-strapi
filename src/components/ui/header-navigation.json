@@ -12,9 +12,6 @@
     "path": {
       "type": "string"
     },
-    "deepList": {
-      "type": "json"
-    },
     "component": {
       "type": "string"
     }

@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_components_testimonials",
+  "info": {
+    "displayName": "Testimonials",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "commentsBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.comments-block"
+    },
+    "advantageBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.advantage-block"
+    }
+  }
+}

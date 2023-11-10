@@ -4,7 +4,8 @@
   "info": {
     "singularName": "layout",
     "pluralName": "layouts",
-    "displayName": "Layout"
+    "displayName": "Layout",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,12 @@
       "type": "component",
       "repeatable": false,
       "component": "components.header"
+    },
+    "footer": {
+      "displayName": "Footer",
+      "type": "component",
+      "repeatable": false,
+      "component": "components.footer"
     }
   }
 }
