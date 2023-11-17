@@ -4,7 +4,7 @@
   "info": {
     "singularName": "navigation",
     "pluralName": "navigations",
-    "displayName": "Navigation",
+    "displayName": "Deep_navigation",
     "description": ""
   },
   "options": {
@@ -16,9 +16,6 @@
       "type": "string"
     },
     "path": {
-      "type": "string"
-    },
-    "deep": {
       "type": "string"
     }
   }

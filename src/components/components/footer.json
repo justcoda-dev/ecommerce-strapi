@@ -6,11 +6,6 @@
   },
   "options": {},
   "attributes": {
-    "navigation": {
-      "type": "component",
-      "repeatable": true,
-      "component": "ui.header-navigation"
-    },
     "contacts": {
       "type": "relation",
       "relation": "oneToMany",
@@ -20,6 +15,11 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::social.social"
+    },
+    "footerMenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.link"
     }
   }
 }

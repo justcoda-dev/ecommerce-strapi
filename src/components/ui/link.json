@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_ui_links",
+  "info": {
+    "displayName": "Link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "deep_navigations": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::navigation.navigation"
+    },
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
